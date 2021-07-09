@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
-import { AppState } from '../../store/app.reducer';
-import { toogleAll } from '../store/todo.actions';
+import { AppState } from '../store/app.reducer';
+import { toogleAll } from '../store/todos/todo.actions';
 
 @Component({
   selector: 'app-todo-page',
